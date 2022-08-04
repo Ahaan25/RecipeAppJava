@@ -33,12 +33,14 @@ public class CheckCourses extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent a=new Intent(CheckCourses.this, Appetizer.class);
+                startActivity(a);
             }
         });
         app.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent a=new Intent(CheckCourses.this, Appetizer.class);
+                startActivity(a);
             }
         });
 
@@ -46,12 +48,14 @@ public class CheckCourses extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent a=new Intent(CheckCourses.this, MainCourse.class);
+                startActivity(a);
             }
         });
         mai.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent a=new Intent(CheckCourses.this, MainCourse.class);
+                startActivity(a);
             }
         });
 
@@ -59,12 +63,14 @@ public class CheckCourses extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent a=new Intent(CheckCourses.this, Desserts.class);
+                startActivity(a);
             }
         });
         des.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent a=new Intent(CheckCourses.this, Desserts.class);
+                startActivity(a);
             }
         });
 
@@ -72,12 +78,14 @@ public class CheckCourses extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent a=new Intent(CheckCourses.this, PaleteCleansers.class);
+                startActivity(a);
             }
         });
         pal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent a=new Intent(CheckCourses.this, PaleteCleansers.class);
+                startActivity(a);
             }
         });
 

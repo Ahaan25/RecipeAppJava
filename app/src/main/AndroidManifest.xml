@@ -14,6 +14,24 @@
         android:theme="@style/Theme.RecipeAppJava"
         tools:targetApi="31">
         <activity
+            android:name=".MexicanCuisine"
+            android:exported="false" />
+        <activity
+            android:name=".JapaneseCuisine"
+            android:exported="false" />
+        <activity
+            android:name=".ItalianCuisine"
+            android:exported="false" />
+        <activity
+            android:name=".IndianCuisine"
+            android:exported="false" />
+        <activity
+            android:name=".ChineseCuisine"
+            android:exported="false" />
+        <activity
+            android:name=".AmericanCuisine"
+            android:exported="false" />
+        <activity
             android:name=".PaleteCleansers"
             android:exported="false" />
         <activity

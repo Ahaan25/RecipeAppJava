@@ -3,13 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android Studio/RecipeAppJava/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2555" />
+        <entry key="..\:/Android Studio/RecipeAppJava/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2555" />
         <entry key="..\:/Android Studio/RecipeAppJava/app/src/main/res/font/montserrat_font_family.xml" value="0.28020833333333334" />
+        <entry key="..\:/Android Studio/RecipeAppJava/app/src/main/res/layout/activity_american_cuisine.xml" value="0.25" />
         <entry key="..\:/Android Studio/RecipeAppJava/app/src/main/res/layout/activity_appetizer.xml" value="0.25" />
         <entry key="..\:/Android Studio/RecipeAppJava/app/src/main/res/layout/activity_check_courses.xml" value="0.264" />
         <entry key="..\:/Android Studio/RecipeAppJava/app/src/main/res/layout/activity_check_cuisines.xml" value="0.264" />
+        <entry key="..\:/Android Studio/RecipeAppJava/app/src/main/res/layout/activity_chinese_cuisine.xml" value="0.2359375" />
         <entry key="..\:/Android Studio/RecipeAppJava/app/src/main/res/layout/activity_desserts.xml" value="0.2359375" />
+        <entry key="..\:/Android Studio/RecipeAppJava/app/src/main/res/layout/activity_indian_cuisine.xml" value="0.25" />
+        <entry key="..\:/Android Studio/RecipeAppJava/app/src/main/res/layout/activity_italian_cuisine.xml" value="0.2359375" />
+        <entry key="..\:/Android Studio/RecipeAppJava/app/src/main/res/layout/activity_japanese_cuisine.xml" value="0.25" />
+        <entry key="..\:/Android Studio/RecipeAppJava/app/src/main/res/layout/activity_japanese_cuisine2.xml" value="0.25" />
         <entry key="..\:/Android Studio/RecipeAppJava/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Android Studio/RecipeAppJava/app/src/main/res/layout/activity_main_course.xml" value="0.25" />
+        <entry key="..\:/Android Studio/RecipeAppJava/app/src/main/res/layout/activity_mexican_cuisine.xml" value="0.2359375" />
         <entry key="..\:/Android Studio/RecipeAppJava/app/src/main/res/layout/activity_palete_cleansers.xml" value="0.25" />
         <entry key="..\:/Android Studio/RecipeAppJava/app/src/main/res/layout/activity_read_reviews.xml" value="0.2359375" />
         <entry key="..\:/Android Studio/RecipeAppJava/app/src/main/res/layout/activity_splash_screen.xml" value="0.264" />
