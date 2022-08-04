@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Ahaan\'s Recipes</string>
+    <string name="appetizers">Appetizers are\n the starters that\n we serve like soup\n platters and so on</string>
+    <string name="maincourse">The featured\n dish of the\n meal in the\n several courses</string>
+    <string name="paletecleansers">A palate cleanser is\n served between courses to\n prepare diners for\n the next course.</string>
+    <string name="desserts">The sweet course\n served at\n the end of\n a meal</string>
 </resources>
