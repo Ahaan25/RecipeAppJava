@@ -7,4 +7,9 @@
     tools:context=".Appetizer"
     android:background="#e2c383">
 
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/appetizerlist"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
