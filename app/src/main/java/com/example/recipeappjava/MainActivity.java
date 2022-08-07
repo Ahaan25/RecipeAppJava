@@ -61,29 +61,27 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    /*
+
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
             case R.id.item1:
-                Intent i=new Intent(MainActivity.this, AddRecords.class);
+                Intent i=new Intent(MainActivity.this, SuggestRecipes.class);
                 startActivity(i);
                 return true;
             case R.id.item2:
-                Intent a=new Intent(MainActivity.this, EditRecords.class);
+                Intent a=new Intent(MainActivity.this, WriteReviews.class);
                 startActivity(a);
                 return true;
+            /*
             case R.id.item3:
                 Intent ib=new Intent(MainActivity.this, DeleteRecords.class);
                 startActivity(ib);
                 return true;
-            case R.id.item4:
-                Intent ia=new Intent(MainActivity.this, ViewRecords.class);
-                startActivity(ia);
-                return true;
+             */
             default:return super.onOptionsItemSelected(item);
         }
     }
-    */
+
 
 }

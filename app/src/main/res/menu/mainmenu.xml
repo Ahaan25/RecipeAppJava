@@ -8,16 +8,11 @@
         app:showAsAction="never" />
     <item
         android:id="@+id/item2"
-        android:title="Request a recipe"
-        android:textColor="@color/black"
-        app:showAsAction="never" />
-    <item
-        android:id="@+id/item3"
         android:title="Write a review"
         android:textColor="@color/black"
         app:showAsAction="never" />
     <item
-        android:id="@+id/item4"
+        android:id="@+id/item3"
         android:title="Buy me a coffee"
         android:textColor="@color/black"
         app:showAsAction="never" />
