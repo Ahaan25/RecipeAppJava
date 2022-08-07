@@ -2,13 +2,13 @@
     <!-- Base application theme. -->
     <style name="Theme.RecipeAppJava" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">#31a905</item>
-        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorPrimary">#32CD32</item>
+        <item name="colorPrimaryVariant">#02AC02</item>
         <item name="colorOnPrimary">#f4984f</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">#31a905</item>
-        <item name="colorSecondaryVariant">@color/black</item>
-        <item name="colorOnSecondary">#f4984f</item>
+        <item name="colorSecondary">#f4984f</item>
+        <item name="colorSecondaryVariant">#FF7100</item>
+        <item name="colorOnSecondary">#32CD32</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
