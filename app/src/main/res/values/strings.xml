@@ -13,4 +13,21 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string-array name="SelectCuisines">
+        <item>American</item>
+        <item>Chinese</item>
+        <item>Indian</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Mexican</item>
+    </string-array>
+
+    <string-array name="SelectCourses">
+        <item>Appetizers</item>
+        <item>Main Course</item>
+        <item>Desserts</item>
+        <item>Palete Cleansers</item>
+    </string-array>
+
 </resources>
