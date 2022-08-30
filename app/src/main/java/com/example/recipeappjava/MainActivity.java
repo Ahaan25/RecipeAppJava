@@ -73,12 +73,10 @@ public class MainActivity extends AppCompatActivity {
                 Intent a=new Intent(MainActivity.this, WriteReviews.class);
                 startActivity(a);
                 return true;
-            /*
             case R.id.item3:
-                Intent ib=new Intent(MainActivity.this, DeleteRecords.class);
+                Intent ib=new Intent(MainActivity.this, BuyMeACoffee.class);
                 startActivity(ib);
                 return true;
-             */
             default:return super.onOptionsItemSelected(item);
         }
     }
