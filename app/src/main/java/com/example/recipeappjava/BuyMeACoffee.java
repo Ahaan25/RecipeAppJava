@@ -9,17 +9,27 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.text.method.LinkMovementMethod;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
 public class BuyMeACoffee extends AppCompatActivity {
 
     TextView paypal, paytm;
+    Button dono;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_buy_me_acoffee);
+
+        dono=findViewById(R.id.button2);
+        dono.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                paymentUsingGooglePay();
+            }
+        });
 
         paypal=findViewById(R.id.textView27);
         paypal.setOnClickListener(new View.OnClickListener() {
@@ -45,4 +55,25 @@ public class BuyMeACoffee extends AppCompatActivity {
 
 
     }
+
+    private void paymentUsingGooglePay(){
+        Uri uri=Uri.parse("upi://pay").buildUpon()
+                .appendQueryParameter("pa", "7038825627@paytm")
+                .appendQueryParameter("pn", "Ahaan Shaikh")
+                .appendQueryParameter("tn", "test payment")
+                .appendQueryParameter("am", "1")
+                .appendQueryParameter("cu", "INR")
+                .build();
+        Intent intent=new Intent(Intent.ACTION_VIEW);
+        intent.setData(uri);
+        try{
+            startActivityForResult(intent, 101);
+
+        }
+        catch (Exception e){
+            Toast.makeText(this, "GPay app not installed", Toast.LENGTH_SHORT).show();
+            e.printStackTrace();
+        }
+    }
+
 }
