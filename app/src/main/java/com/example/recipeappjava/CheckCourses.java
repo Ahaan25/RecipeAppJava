@@ -8,8 +8,6 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
 public class CheckCourses extends AppCompatActivity {
 
     TextView appetizer, maincourse, dessert, palletecleanser;
@@ -77,14 +75,14 @@ public class CheckCourses extends AppCompatActivity {
         palletecleanser.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent a=new Intent(CheckCourses.this, PaleteCleansers.class);
+                Intent a=new Intent(CheckCourses.this, PalateCleansers.class);
                 startActivity(a);
             }
         });
         pal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent a=new Intent(CheckCourses.this, PaleteCleansers.class);
+                Intent a=new Intent(CheckCourses.this, PalateCleansers.class);
                 startActivity(a);
             }
         });

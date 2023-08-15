@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PaleteCleansers"
+    tools:context=".PalateCleansers"
     android:background="#e2c383">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

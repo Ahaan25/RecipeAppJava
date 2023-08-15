@@ -52,7 +52,7 @@
             android:exported="false"
             android:noHistory="true" />
         <activity
-            android:name=".PaleteCleansers"
+            android:name=".PalateCleansers"
             android:exported="false"
             android:noHistory="true" />
         <activity
