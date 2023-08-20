@@ -59,8 +59,6 @@ public class BuyMeACoffee extends AppCompatActivity {
                 Toast.makeText(BuyMeACoffee.this, "UPI ID Copied.", Toast.LENGTH_SHORT).show();
             }
         });
-
-
     }
 
     /*
